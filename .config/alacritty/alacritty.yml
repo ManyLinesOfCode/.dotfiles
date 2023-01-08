@@ -1,0 +1,66 @@
+window:
+  padding:
+    x: 10
+    y: 10
+  class:
+    instance: Alacritty
+    name: Alacritty
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+window.opacity: 1
+
+font:
+  size: 10
+  normal:
+    family: JetBrains Mono
+    style: normal
+  bold:
+    family: JetBrains Mono
+    style: bold
+  italic:
+    family: JetBrains Mono
+    style: italic
+  bold-italic:
+    family: JetBrains Mono
+    style: bold-italic
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  style:
+    shape: beam
+
+selection:
+  save_to_clipboard: true
+
+live_config_reload: true
+colors:
+  name: Default (dark)
+  author: Chris Kempson
+  primary:
+    background: "#151515"
+    foreground: "#d0d0d0"
+  cursor:
+    text: "#151515"
+    cursor: "#d0d0d0"
+  normal:
+    black: "#151515"
+    red: "#ac4142"
+    green: "#90a959"
+    yellow: "#f4bf75"
+    blue: "#6a9fb5"
+    magenta: "#aa759f"
+    cyan: "#75b5aa"
+    white: "#d0d0d0"
+  bright:
+    black: "#505050"
+    red: "#ac4142"
+    green: "#90a959"
+    yellow: "#f4bf75"
+    blue: "#6a9fb5"
+    magenta: "#aa759f"
+    cyan: "#75b5aa"
+    white: "#f5f5f5"
+theme: Default.dark

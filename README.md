@@ -8,9 +8,9 @@ This repository contains configurations for the following:
 - [Alaritty](https://alacritty.org/)
 - [Bash](https://www.gnu.org/software/bash/)
 
-# Dependancies
+# Dependencies
 
-The qtile config lays out keyboard shortcuts that launch certain programs. As such, the following packages are required for out-of-the-box use:
+The Qtile config lays out keyboard shortcuts that launch certain programs. As such, the following packages are required for out-of-the-box use:
 
 - Firefox (`firefox`)
 - Discord (`discord`)

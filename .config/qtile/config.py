@@ -52,7 +52,7 @@ keys = [
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch a terminal"),
     Key([mod], "f", lazy.spawn("firefox"), desc="Launch Firefox"),
     Key([mod], "c", lazy.spawn("code"), desc="Launch Visual Studio Code"),
-    Key([mod], "n", lazy.spawn("pcmanfm"), desc="Launch Pcmanfm"),
+    Key([mod], "n", lazy.spawn("thunar"), desc="Launch Thunar"),
     Key([mod], "d", lazy.spawn("discord"), desc="Launch Discord"),
 ]
 

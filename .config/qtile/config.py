@@ -16,7 +16,7 @@ from libqtile.utils import guess_terminal
 mod = "mod4" # Otherwise known as "the Windows key"
 terminal = guess_terminal()
 
-accentColour = "#00506b"
+accentColour = "#000000"
 
 keys = [
 

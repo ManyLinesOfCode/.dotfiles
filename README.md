@@ -1,6 +1,6 @@
 These are the configuration files I use on my Arch Linux system.
 
-# Dependencie(s)
+# Dependencies
 
 Lines `53` to `56` of the the Qtile config lay out keyboard shortcuts that launch certain programs. For out-of-the-box use, you'll have to install those packages.
 

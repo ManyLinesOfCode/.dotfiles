@@ -12,22 +12,6 @@ scrolling:
 
 window.opacity: 1
 
-font:
-  size: 10
-  normal:
-    family: JetBrains Mono
-    style: normal
-  bold:
-    family: JetBrains Mono
-    style: bold
-  italic:
-    family: JetBrains Mono
-    style: italic
-  bold-italic:
-    family: JetBrains Mono
-    style: bold-italic
-draw_bold_text_with_bright_colors: true
-
 cursor:
   style:
     shape: beam

@@ -1,12 +1,4 @@
-# # # # #
-#
-#  This is a customized config for the Qtile window manager.
-#
-#  For a list previous contributors and increased comment-based documentation,
-#  please refer to the default config file at: ~/usr/share/doc/qtile/default_config.py.
-#
-# # # # #
-
+# ~/.config/qtile/config.py
 
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
@@ -51,9 +43,8 @@ keys = [
     # Launch programs; change these at your will
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch a terminal"),
     Key([mod], "f", lazy.spawn("firefox"), desc="Launch Firefox"),
-    Key([mod], "c", lazy.spawn("code"), desc="Launch Visual Studio Code"),
+    Key([mod], "c", lazy.spawn("vscodium"), desc="Launch VSCodium"),
     Key([mod], "n", lazy.spawn("thunar"), desc="Launch Thunar"),
-    Key([mod], "d", lazy.spawn("discord"), desc="Launch Discord"),
 ]
 
 groups = [Group(i) for i in "123456789"]
@@ -82,7 +73,6 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="JetBrains Mono",
     fontsize=13,
     padding=3,
 )
@@ -113,7 +103,7 @@ screens = [
             ],
             30, # the vertical size of the bar
         ),
-        wallpaper='~/Pictures/Wallpapers/wallpaper.jpg',
+        wallpaper='~/Pictures/Wallpapers/wallpaper.*',
         wallpaper_mode='stretch',
     ),
 ]

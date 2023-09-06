@@ -8,8 +8,6 @@ from libqtile.utils import guess_terminal
 mod = "mod4" # Otherwise known as "the Windows key"
 terminal = guess_terminal()
 
-accentColour = "#000000"
-
 keys = [
 
     # Move the selector
@@ -67,7 +65,7 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_width=2, margin=2, border_focus=accentColour),
+    layout.Columns(border_width=2, margin=2, border_focus="#440000"),
     layout.Max(),
     layout.Floating(border_width=1),
 ]
@@ -87,8 +85,8 @@ screens = [
                 widget.GroupBox(),
                 widget.Prompt(),
                 widget.Spacer(length=5),
-                widget.WindowName(background=accentColour),
-                widget.Chord(chords_colors={"launch": ("#ff0000", "#ffffff")}, name_transform=lambda name: name.upper()),
+                widget.WindowName(),
+                widget.Chord(chords_colors={"launch": ("#000000", "#ffffff")}, name_transform=lambda name: name.upper()),
 
                 widget.Spacer(length=10),
                 widget.CheckUpdates(initial_text='Checking for updates...', display_format="Updates: {updates}", no_update_string="All Packages Up-to-date", execute="sudo pacman -Syy", update_interval=10),
